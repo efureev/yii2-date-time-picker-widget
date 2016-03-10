@@ -3,7 +3,7 @@
 namespace tests;
 
 
-use dosamigos\datetimepicker\DateTimePicker;
+use efureev\datetimepicker\DateTimePicker;
 use tests\data\models\Post;
 use tests\data\overrides\TestDateTimePicker;
 use yii\web\JsExpression;

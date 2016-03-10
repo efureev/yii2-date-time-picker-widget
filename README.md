@@ -16,12 +16,12 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```bash
-composer require 2amigos/yii2-date-time-picker-widget:~1.0
+composer require efureev/yii2-date-time-picker-widget:~1.0
 ```
 or add
 
 ```json
-"2amigos/yii2-date-time-picker-widget" : "~1.0"
+"efureev/yii2-date-time-picker-widget" : "~1.0"
 ```
 
 to the require section of your application's `composer.json` file.
@@ -37,7 +37,7 @@ There are two ways of using it, with an `ActiveForm` instance or as a widget set
 
 ```php
 <?php
-use dosamigos\datetimepicker\DateTimePicker;
+use efureev\datetimepicker\DateTimePicker;
 
 // as a widget
 ?>
@@ -57,7 +57,7 @@ use dosamigos\datetimepicker\DateTimePicker;
 <?php 
 // with an ActiveForm instance displayed as a TimePicker
 
-use dosamigos\datetimepicker\DateTimePicker;
+use efureev\datetimepicker\DateTimePicker;
 ?>
 <?= $form->field($tour, 'date_from')->widget(DateTimePicker::className(), [
     'language' => 'es',

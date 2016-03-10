@@ -1,8 +1,8 @@
 <?php
 namespace tests\data\overrides;
 
-use dosamigos\datetimepicker\DateTimePicker;
-use dosamigos\datetimepicker\DateTimePickerAsset;
+use efureev\datetimepicker\DateTimePicker;
+use efureev\datetimepicker\DateTimePickerAsset;
 use yii\helpers\Json;
 use yii\web\View;
 

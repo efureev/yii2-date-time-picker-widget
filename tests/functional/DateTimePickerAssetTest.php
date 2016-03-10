@@ -3,7 +3,7 @@
 namespace tests;
 
 
-use dosamigos\datetimepicker\DateTimePickerAsset;
+use efureev\datetimepicker\DateTimePickerAsset;
 use yii\web\AssetBundle;
 
 class DateTimePickerAssetTest extends TestCase
